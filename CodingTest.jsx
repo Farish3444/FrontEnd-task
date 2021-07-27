@@ -37,6 +37,7 @@ return (
   />
   {/* <Button>{state}</Button> */}
   <Button onClick={subCount}>-</Button>
+  <Button variant='contained' onClick={()=>setstate(0)}>Reset</Button>
 </ButtonGroup>
   <br/>
 <Button variant='outlined' color='secondary' onClick={subContent}>Submit</Button>
